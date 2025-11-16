@@ -4,6 +4,14 @@ type Params = {
   };
 };
 
+export function generateStaticParams() {
+  return [
+    { slug: "post-1" },
+    { slug: "post-2" },
+    { slug: "post-3" },
+  ];
+}
+
 export async function generateMetadata({ params }: Params) {
   return { title: `Post: ${params.slug}` };
 }

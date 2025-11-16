@@ -13,7 +13,7 @@ export default function Page({ params }: Params) {
     <div>
       <h1>Slug: {params.slug}</h1>
       <p>
-        Hole Text
+        Hole Text dsfsda
       </p>
       <p>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi

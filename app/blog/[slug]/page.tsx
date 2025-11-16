@@ -13,8 +13,7 @@ export default function Page({ params }: Params) {
     <div>
       <h1>Slug: {params.slug}</h1>
       <p>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip ex ea commodo consequat.
+        Hole Text
       </p>
       <p>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
